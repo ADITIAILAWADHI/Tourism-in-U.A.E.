@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="finalproj.css">
+<style>
+    .pic{
+      background-image: url(https://www.ahlanlive.com/sites/default/files/styles/artcle_big_picture/public/images/2015/09/03/shutterstock_269385017%20%281%29.jpg?itok=cN_cRXGT);
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+
+    .pic3{
+      background-image: url(https://digimarconmiddleeast.com/wp-content/uploads/2018/03/uae-climate.jpg);
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:250px;
+  margin:100px;
+    }    
+
+#home {
+  height: 100%;
+  width: 99%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.button1 {background-color: green;}
+.button2 {background-color: gray;}
+
+#tble {
+    border-collapse: collapse;
+    width: 55%;
+    margin: 50px;
+  }
+  #tble td {
+    padding: 5px;
+    text-align: center;
+  }
+#tble tr:nth-of-type(odd) {background-color: Plum;}
+#tble tr:hover {background-color: blue;}
+
+
+#tabl {
+    border-collapse: collapse;
+    width: 65%;
+    margin: 50px;
+  }
+  #tabl td {
+    padding: 5px;
+    text-align: center;
+  }
+#tabl tr:nth-of-type(odd) {background-color: LightSkyBlue;}
+#tabl tr:hover {background-color: orange;}
+
+#more {display: none;}
+    #more2 {display: none;}
+    #more3 {display: none;}
+    #more4 {display: none;}
+    #more5 {display: none;}
+
+  #status{
+      background-image: url(https://www.timeoutabudhabi.com/public/images/2019/10/28/The-Corniche.jpg);
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:MediumVioletRed;
+    }
+
+</style>
+
+</head>
+<body>
+
+<div class="logo"><img src="https://static.wixstatic.com/media/bc2cab_77bf4b808cf34eb781aa7e18f16a511c~mv2.png/v1/fill/w_496,h_140,al_c,q_85,usm_0.66_1.00_0.01/Travel%20Helper%20logoLarge.webp" height="100px"></div>
+
+<span class="txt-cntainr" id="1">
+  <h1 class="headig"><i>T R A V E L  H E L P E R</i></h1>
+</span>
+
+<div class="ctc">
+    <a href="#abouut" class="con"> About </a>
+    <a href="#contacct" class="con"> Contact </a>
+</div>
+
+<div class="top">
+<img src="map.png" width="100%" height="525px">
+  <h2 class="bottom-right">ULTIMATE TRAVEL GUIDE</h2>
+</div>
+
+<span class="btt">
+<a href="#1"><img src="https://www.lifestyleblinds.com/images/mmimages/go-top.png" width="70px" height="70px"></a>
+</span>
+
+<div class="tab">
+  <button class="tablinks" onclick="openPage(event, 'home')">HOME</button>
+  <button class="tablinks" onclick="openPage(event, '2')">ACTIVITIES</button>
+  <button class="tablinks" onclick="openPage(event, '3')">EXPLORE</button>
+  <button class="tablinks" onclick="openPage(event, '4')">MAPS</button>
+  <button class="tablinks" onclick="openPage(event, 'hotels')">HOTELS</button>
+  <button class="tablinks" onclick="openPage(event, '5')">WHY UAE?</button>
+  <button class="tablinks" onclick="openPage(event, 'deals')">DEALS</button>
+  <button class="tablinks" onclick="openPage(event, 'visit')">CLIMATE & DRESS CODE</button>
+  <button class="tablinks" onclick="openPage(event, 'challenges')">COVID-19</button>
+  <button class="tablinks" onclick="openPage(event, 'touristhelpers')">TOUR HELPERS</button>
+  <button class="tablinks" onclick="openPage(event, '6')">COMMENT BOX</button>
+</div>
+
+<div id="home" class="tabcontent">
+    <span class="txt-cntainr">
+  <h1 style="position: absolute; top: 140%; left: 16%;"><i>LET'S GO UNITED ARAB EMIRATES </i><br/> (UAE)<img src="https://wallpaperaccess.com/download/dubai-flag-1459302" width="60" height="40"><hr style="border-width:3px;"></h1>
+</span>
+</div>
+
+<div id="2" class="tabcontent">
+  <span class="txt-cntainr">
+  <h1><i>MOST SEARCHED FUN ACTIVITIES</i></h1>
+</span> <h3> Hover over (About..) to check description about the particular activity </h3> <hr/>
+
+<div class= "grid-container">
+
+<div>
+  <br/>
+<p class = "ttname" onmouseover="show(tooltip1)" onmouseout="hide(tooltip1)">
+About..
+    <p class = "tooltip" id= "tooltip1">
+      <i>Experience the adventure and heights above from Desert Campus or Palm Islands.</i>
+    </p><br/>
+
+    <p class = "ttname" onmouseover="show(tooltip2)" onmouseout="hide(tooltip2)">
+About..
+    <p class = "tooltip" id= "tooltip2">
+       <i>Dubai trip is meant to be incomplete without Dubai desert safari. <b>"Free for children less than 3 years"</b></i>
+    </p><br/>
+
+    <p class = "ttname" onmouseover="show(tooltip3)" onmouseout="hide(tooltip3)">
+About..
+    <p class = "tooltip" id= "tooltip3">
+          <i>Experience the opportunity to dive deep under the depths of the waters surrounding with aquatic species. It is a stress buster activity and increases concentration capacity.
+        <b>"Mininmum age required is 10"</b></i>
+    </p><br/>
+
+    <p class = "ttname" onmouseover="show(tooltip4)" onmouseout="hide(tooltip4)">
+About..
+    <p class = "tooltip" id= "tooltip4">
+        <i>Experience the mariana view and live shows during your cruise trip.</i>
+    </p><br/>
+    
+    <p class = "ttname" onmouseover="show(tooltip5)" onmouseout="hide(tooltip5)">
+About..
+    <p class = "tooltip" id= "tooltip5">
+        <i>Experience a never forgettable fun at the exquisite indoor real snow park of UAE at Mall of the Emirates.</i>
+    </p><br/><br/>
+    
+    <p class = "ttname" onmouseover="show(tooltip6)" onmouseout="hide(tooltip6)">
+About..
+    <p class = "tooltip" id= "tooltip6">
+        <i>Experience a thrilling fun activity above from skies in helicopter.</i>
+      </p><br/>
+
+    <p class = "ttname" onmouseover="show(tooltip7)" onmouseout="hide(tooltip7)">
+About..
+    <p class = "tooltip" id= "tooltip7">
+      <i>Experience adventure and relaxation at the Middle East's largest water park.</i>
+    </p><br/>
+    
+    <p class = "ttname" onmouseover="show(tooltip8)" onmouseout="hide(tooltip8)">
+About..
+    <p class = "tooltip" id= "tooltip8">
+        <i>Unique experience water-based activity at Dubai Marina beach, performed on the waves.</i>
+    </p><br/>
+    
+    <p class = "ttname" onmouseover="show(tooltip9)" onmouseout="hide(tooltip9)">
+About..
+    <p class = "tooltip" id= "tooltip9">
+       <i>Fly with a view of the Marina beach and enjoy flow of wind and the surroundings.</i>
+    </p><br/><br/>
+    
+    <p class = "ttname" onmouseover="show(tooltip10)" onmouseout="hide(tooltip10)">
+About..
+    <p class = "tooltip" id= "tooltip10">
+        <i>A famous water-sport fun activity. Ride a Jet ski in Dubai and experience open water and high wind speeds.</i>
+    </p><br/>
+    <br/><br/><br/><br/><br/><br/>
+</div>
+
+<div><br/>
+<h2 style="text-align: center; font-size: 20px;">SKYDIVE DUBAI </h2><br/>
+<h2 style="text-align: center; font-size: 20px;">DUBAI DESSERT SAFARI</h2><br/>
+<h2 style="text-align: center; font-size: 20px;">SCUBA DIVING IN DUBAI </h2><br/>
+<h2 style="text-align: center; font-size: 20px;">DHOW DINNER CRUISE IN DUBAI </h2><br/>
+<h2 style="text-align: center; font-size: 20px;">SKI DUBAI </h2><br/><br/>
+<h2 style="text-align: center; font-size: 20px;">HELICOPTER RIDE DUBAI </h2><br/>
+<h2 style="text-align: center; font-size: 20px;">Atlantis Aquaventure Water Park and Lost Chambers</h2><br/>
+<h2 style="text-align: center; font-size: 20px;">Wakeboarding, Dubai </h2><br/>
+<h2 style="text-align: center; font-size: 20px;">Parasailing, Dubai</h2><br/><br/>
+<h2 style="text-align: center; font-size: 20px;">Jet Ski in Dubai </h2>
+</div>
+
+<div>
+  <br/>
+<div class="progressbar"> <div class="aa" id="p1">90%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p2">100%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p3">70%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p4">65%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p5">75%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p6">50%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p7">90%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p8">60%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p9">65%</div></div><br/><br/>
+<div class="progressbar"> <div class="aa" id="p10">80%</div></div>
+</div>
+
+</div>
+</div>
+
+<div id="3" class="tabcontent">
+  <span class="txt-cntainr">
+  <h1><i>Top Outdoor Sights In United Arab Emirates</i></h1>
+</span>
+<h3>Hover over the image and click to get directed to an external page to check more information about the place</h3>
+<button class="accordion">ABU DHABI</button>
+<div class="panel">
+  <table style= "padding: 10px;">
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.ferrariworldabudhabi.com/en/rides" target="_blank">
+  <img src="https://api.ferrarinetwork.ferrari.com/v2/network-content/medias/resize/5de2441691756c07f109ee89-abu-dhabi-ferrari-park?apikey=9QscUiwr5n0NhOuQb463QEKghPrVlpaF&width=768&height=430" class="la">
+  </a>
+  <div class="overlay">Ferrari World Abu Dhabi</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.dayoutdubai.ae/blog/city-sightseeing/jebel-hafeet/" target="_blank">
+  <img src="https://www.timeoutdubai.com/public/images/2018/12/16/Jebel-Hafeet.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Jebel Hafeet</div></div></td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.wbworldabudhabi.com/" target="_blank">
+  <img src="https://i.ytimg.com/vi/VAZtjEgkT34/maxresdefault.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Warner Bros World Abu Dhabi</div></div></td>
+</tr>
+
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.tripadvisor.in/Attraction_Review-g294013-d12927120-Reviews-Louvre_Abu_Dhabi-Abu_Dhabi_Emirate_of_Abu_Dhabi.html" target="_blank">
+  <img src="https://news.artnet.com/app/news-upload/2017/09/1.-Louvre-Abu-Dhabi.-Photo-Courtesy-Mohamed-Somji-1024x683.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Louvre Abu Dhabi</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.tripadvisor.in/Attraction_Review-g294013-d5012010-Reviews-The_Galleria_Al_Maryah_Island-Abu_Dhabi_Emirate_of_Abu_Dhabi.html" target="_blank">
+  <img src="https://www.mubadala.com/sites/default/files/styles/sector_spotlight/public/asset/assets_images_1152x492_46.jpg?itok=y1OduOIX" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">The Galleria Al Maryah Island</div></div></td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://edition.cnn.com/travel/article/sheikh-zayed-grand-mosque-abu-dhabi/index.html" target="_blank">
+  <img src="https://cdn.cnn.com/cnnnext/dam/assets/181122125456-sheikh-zayed-grand-mosque-stock.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">SHEIKH ZAYED MOSQUE, ABU DHABI</div></div></td>
+</tr>
+</table>
+</div>
+
+<button class="accordion">SHARJAH</button>
+<div class="panel">
+  <table style= "padding: 10px;">
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.sharjahmuseums.ae/en-US/Museums/Sharjah-Museum-of-Islamic-Civilization" target="_blank">
+  <img src="https://www.sharjahmuseums.ae/CMSPages/GetFile.aspx?guid=036d9012-c4c5-4e3c-b922-9fc412fa03c3" class="la">
+  </a>
+  <div class="overlay">Sharjah Museum of Islamic Civilization</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.tripadvisor.in/Attraction_Review-g295424-d647125-Reviews-Al_Mamzar_Beach_Park-Dubai_Emirate_of_Dubai.html" target="_blank">
+  <img src="https://media-cdn.tripadvisor.com/media/photo-s/00/1c/75/58/al-mamzar-park.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Al Mamzar Beach Street</div></div></td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.visitsharjah.com/en/activities/culture/al-noor-mosque/" target="_blank">
+  <img src="https://universes.art/fileadmin/media/images/art_destinations/sharjah/other_places/al_noor_mosque/01_310/2550942-1-eng-GB/01_310.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Al Noor Mosque</div></div></td>
+</tr>
+
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.sharjahartmuseum.ae/" target="_blank">
+  <img src="https://universes.art/uploads/tx_armtemplate/mobile/00-IMG_4586-800-700.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Sharjah Art Museum</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.almajaz.ae/" target="_blank">
+  <img src="https://www.trawell.in/admin/images/upload/904389534Sharjah_al-majaz-waterfront.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Al Majaz Waterfront</div></div></td>
+</tr>
+</table>
+</div>
+
+<button class="accordion">DUBAI</button>
+<div class="panel">
+  <table style= "padding: 10px;">
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.viator.com/en-NZ/tours/Dubai/Burj-Khalifa-At-the-Top-Entrance-Ticket-to-Levels-125-and-124/d828-39202BURJKHALIFA" target="_blank">
+  <img src="https://www.burjkhalifa.ae/en/Images/BurjKhalifa-02982_new_tcm290-85702.jpg" class="la">
+  </a>
+  <div class="overlay">Burj Khalifa</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.dubaigardenglow.com/" target="_blank">
+  <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1619,h_1080,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/bnqvtowu4b6g1ochiwpf/DubaiGardenGlowTicket.webp" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Dubai Garden Glow</div></div></td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.visitdubai.com/en/pois/dubai-mall" target="_blank">
+  <img src="https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/The-Dubai-Mall-front-view.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">The Dubai Mall</div></div></td>
+</tr>
+
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.imgworlds.com/" target="_blank">
+  <img src="https://i.ytimg.com/vi/Ul_uVrPacPI/maxresdefault.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">IMG Worlds of Adventure</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.w3schools.com/html/html_links.asp" target="_blank">
+  <img src="https://www.timeoutdubai.com/public/images/2018/12/18/Dubai-Frame.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Zabeel Park</div></div></td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://blog.headout.com/dubai-fountain/" target="_blank">
+  <img src="https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Dubai-Fountain-cover-photo.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">The Dubai Fountain</div></div></td>
+</tr>
+
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.dubai-marina.com/" target="_blank">
+  <img src="https://www.visitdubai.com/-/media/images/articles/dubai-marina-highlights/new/hero/mobile-dubaimarinahighlights-412x252.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Dubai Marina</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.skidubai.com/" target="_blank">
+  <img src="https://i.ytimg.com/vi/xIX9ju_ZbAY/maxresdefault.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Ski Dubai</div></div></td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.visitdubai.com/en/pois/dubai-museum" target="_blank">
+  <img src="https://www.tripsavvy.com/thmb/XwmFLfaZNif0372KmDHhumi6Nbg=/2121x1414/filters:fill(auto,1)/dubaimuseum-FevreDream-5b5652c146e0fb003704f7b2.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Dubai Museum</div></div></td>
+</tr>
+
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.thedubaiaquarium.com/en/visitus/ticketinformation.aspx" target="_blank">
+  <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/09/cover-for-aquarium-in-dubai.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Dubai Aquarium & Underwater Zoo</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.dubaimiraclegarden.com/" target="_blank">
+  <img src="https://miro.medium.com/max/760/0*gOs_6_xsHYR_4y_l.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Dubai Miracle Garden</div></div></td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.dubaidolphinarium.ae/shows-prices" target="_blank">
+  <img src="https://www.dubaidolphinarium.ae/images/2017/09/23/dolphirium.png" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Dubai Dolphinarium - Dolphin & Seal Show</div></div></td>
+</tr>
+
+</table>
+
+</div>
+
+<button class="accordion">FUJAIRAH</button>
+<div class="panel">
+  <table style= "padding: 10px;">
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.tripadvisor.in/Attraction_Review-g311321-d3181905-Reviews-Al_Bidya_Mosque-Fujairah_Emirate_of_Fujairah.html" target="_blank">
+  <img src="https://www.youngtimes.com/loop/sites/default/files/article_thumbnail_image/rectangular_variant_image/1579528239-rectangular_variant.png" class="la">
+  </a>
+  <div class="overlay">Al Bidya Mosque</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.visitsharjah.com/en/activities/nature/al-rafisah-dam/" target="_blank">
+  <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/00/d7/bf/al-rafisah-dam.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Al Rafisah Dam</div></div></td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.trawell.in/united-arab-emirates/fujairah/fujairah-sheikh-zayed-mosque" target="_blank">
+  <img src="https://i.pinimg.com/originals/ca/f7/42/caf742a2c6d90e1cea2a03b56cfd25e9.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Grand Sheikh Zayed Mosque, Fujairah</div></div></td>
+</tr>
+
+</table>
+</div>
+
+<button class="accordion">RAS AL KHAIMAH</button>
+<div class="panel">
+  <table style= "padding: 10px;">
+<tr>
+<td style= "padding: 20px;">
+<div class="container">
+<a href= "https://www.tripadvisor.in/Attraction_Review-g298063-d4922455-Reviews-Jebel_Jais-Ras_Al_Khaimah_Emirate_of_Ras_Al_Khaimah.html" target="_blank">
+  <img src="https://resources.sotc.in/images/common/blog/blog1.jpg" class="la">
+  </a>
+  <div class="overlay">Jebel Jais Mountain</div>
+  </div>
+  </td>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.booking.com/hotel/ae/marjan-island-resort-amp-spa.html" target="_blank">
+  <img src="https://dq5r178u4t83b.cloudfront.net/wp-content/uploads/sites/5/2016/04/03124818/marjan_resort_home_slide_02.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Marjan Island</div></div></td>
+</tr>
+
+</table>
+</div>
+
+<button class="accordion">AJMAN</button>
+<div class="panel">
+  <table style= "padding: 10px;">
+<tr>
+<td style= "padding: 20px;"><div class="container"><a href= "https://www.rome2rio.com/s/Ajman/Sheikh-Zayed-Mosque" target="_blank">
+  <img src="https://www.esquireme.com/public/styles/full_img/public/images/2019/07/24/Zayed-Mosque-1_2.jpg?itok=jn8a77T1" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Sheikh Zayed Mosque</div></div></td>
+</tr>
+
+</table>
+</div>
+
+<button class="accordion">UMM AL QUWAIN</button>
+<div class="panel">
+  <table style= "padding: 10px;">
+<tr>
+<td style= "padding: 20px;"><div class="container"><a href= "https://sambarworld.com/al-hamriyah-public-beach-sharjah-near-ajman-umm-al-quwain-uae/" target="_blank">
+  <img src="https://imagevars.gulfnews.com/2017/8/30/1_16a083cbb9a.2082459_3773151831_16a083cbb9a_large.jpg" alt="Avatar" class="la">
+  </a>
+  <div class="overlay">Al Hamriyah Public Beach</div></div></td>
+</tr>
+
+</table>
+</div>
+</div>
+
+<div id="4" class="tabcontent">
+  <span class="txt-cntainr">
+  <h1><i>PLACES WORTH VISITING</i></h1>
+</span>
+<hr style="border: 2px solid magenta; width:800px;">
+<h3>Click on the areas marked to check the external websites</h3> 
+
+<img src="pic35.png" alt="Workplace" usemap="#mmap" width="1261px" height="549px">
+
+<map name="mmap">
+  <area shape="circle" coords="1082,450,20" alt="Computer" href="https://www.imgworlds.com/" target="_blank">
+  <area shape="circle" coords="486,252,20" alt="Cup of coffee" href="https://www.malloftheemirates.com/" target="_blank">
+  <area shape="circle" coords="407,120,20" alt="Cup of coffee" href="https://www.jumeirah.com/en/stay/dubai/burj-al-arab-jumeirah" target="_blank">
+  <area shape="circle" coords="136,272,120" alt="Cup of coffee" href="https://www.tripadvisor.in/Attraction_Review-g295424-d660445-Reviews-Palm_Jumeirah-Dubai_Emirate_of_Dubai.html" target="_blank">
+</map>
+
+<br/><br/><hr style="border: 2px dotted white;"><br/>
+<span class="txt-cntainr">
+  <h1><i>GOOGLE MAP</i></h1>
+</span>
+<hr style="border: 2px solid magenta; width:600px;">
+<h3>"+" & "-" to "Zoom in" & "Zoom out" respectively. <br/>Click on the bottom left icon to see satellite view. <br/>Click on "More options" to search directions of desired destinations.</h3>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d924852.5800027744!2d54.63995867175376!3d25.111832259338698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d23.0425054!2d53.384023799999994!4m5!1s0x3ef676ad264b24c1%3A0x10f6affe1a9e78a3!2sRas%20Al-Khaimah%20-%20Ras%20al%20Khaimah%20-%20United%20Arab%20Emirates!3m2!1d25.800692599999998!2d55.9761994!5e0!3m2!1sen!2sin!4v1594856659356!5m2!1sen!2sin" width="1250" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</div>
+
+<div id="hotels" class="tabcontent">
+   <span class="txt-cntainr">
+  <h1><i>HOTELS</i></h1>
+</span>
+<h3> SEARCH AND GET BEST HOTEL DEALS! </h3><hr style="width: 1200px;"><br/>
+
+<div style="background-color:SlateGrey; padding:40px;border-radius: 50px;">
+<div style="background-color:BurlyWood;padding:40px; font: 50px Arial, sans-serif; border-style: solid solid hidden solid; margin-bottom: 20px;">
+<b><i><span style="color:blue">t r i</span> <span style="color:DarkOrange">v a</span> <span style="color:red">g o</span></i></b></div>
+
+<form action="https://www.trivago.ae/?" method="get" target="_blank">
+
+<div style="background-color:LightGrey;padding:40px; border-style: hidden solid solid solid;">
+<input type="search" placeholder="Enter a hotel name or destination" name="sQuery" class="js-query input querytext querytext--padding-right" id="querytext" itemprop="query" style="padding:25px; margin:50px; width:60%;">
+
+<button class="btn btn--primary btn--regular search-button js-search-button" data-qa="search-button" style="padding:25px; margin:50px; background-color:red; color:white;"><span class="search-button__label">Search</span></button>
+</div>
+</form>
+</div>
+</div>
+
+<div id="5" class="tabcontent">
+  <span class="txt-cntainr">
+  <h1><i>REASONS why UAE is A famous TOURIST destination!</i><hr style="width: 800px;border-color: red; border-width: 2px"></h1>
+</span>
+    <iframe width="1120" height="520" src="https://www.youtube.com/embed/sXDopqUGfCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div id="deals" class="tabcontent">
+  <span class="txt-cntainr">
+  <h1><i>UAE TOUR PACKAGES & MEGA OFFERS</i></h1>
+</span>
+
+<br/><hr style="border: 2px solid magenta; width:800px;">
+<div id="myNav" class="overlay2">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay2-contnt">
+  <ul>
+  
+    <a href="#">
+    <div><li>For booking, send us mail on the email id provided below! We will soon get back to you.</li> <a href = "mailto: touristservice@gmail.com"><h2 style="font-size: 30px;">touristservice@gmail.com</h2></a></div>
+    </a>
+    
+    <a href="#">
+    <div><p class = "ttname" onmouseover="show(tooltip11)" onmouseout="hide(tooltip11)">Important Notice!(hover)
+    <p class = "tooltip" id= "tooltip11">
+       There are limited tourist helpers due to covid-19 job losses
+    </p></div>
+    </a>
+    
+    </ul>
+  </div>
+</div>
+
+<h2>Click on the icon below to see the fullscreen overlay navigation menu.</h2>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776; click</span>
+<hr style="border: 2px solid orange; width:800px;"><br/>
+
+  <form>
+  <button type="button" class= "button button1" onclick="loadXMLDoc()">Affoardable</button>
+  <button type="button" class= "button button2" onclick="loadXMLDoc2()">Expensive</button>
+</form>
+  <br/><br/>
+
+  <div id="demo">
+    <div class="grid-container">
+  <div><img src="https://cdn.images.express.co.uk/img/dynamic/25/590x/dubai-uae-holidays-1027485.jpg?r=1538766938844" style="width:500px;height:400px;" /></div>
+  <div><h2> Click on the above buttons to check the deals! </h2></div>
+  <div><img src="https://cdn.images.express.co.uk/img/dynamic/25/590x/Dubai-tourism-surges-as-emirate-reveals-it-will-welcome-20-million-international-tourists-by-2020-995176.jpg?r=1532771255085" style="width:500px;height:400px; float: right;"/></div>
+</div>
+
+ </div>
+
+</div>
+
+<div id="visit" class="tabcontent">
+  <div class="pic">
+    <span class="txt-cntainr">
+  <h1><i>WHEN TO VISIT UAE?</i></h1>
+</span>
+<hr style="border: 2px solid AntiqueWhite; width:800px;"><br/>
+<div class="why">
+<h2 id="aut"> </h2>
+<p style="color: brown;"> The months from mid-September to December comes under the Autumn season in the UAE. Temperature varying from approximately 35 degrees (humid and hot) during days and a bit colder during nights. Heat is controlled in this season due to the mild rain. <span id="dot">...</span><span id="more">This season is considered suitable for visitors and residents to participate in outdoor activities. UAE starts welcoming tourists in this season as it celebrates UAE National Day in December with variety of hotel and restaurant offers and long weekend, which attracts the tourists. </span>
+<button onclick="Function()" id="Btn">Read more</button></p>
+</div>
+
+</br></br>
+
+<div class="why">
+<h2 id="spr"> </h2>
+<p style="color: white;">Springs are from December to May in the UAE. Temperature varies from 27 degrees in December during the day, drops to 15 degrees during the night (the coldest weather in the UAE with high speed breeze), typical rainfall and 40 degrees in the May. Heat is no more an issue in this season. <span id="dot2">...</span><span id="more2">UAE gets most of its tourists in this season as this is consisdered the most relaxing season of the UAE with variations of temperrature. UAE becomes busiest during this season due to many festivals. It is highly recommended to visit UAE in this season for both outdoor and indoor activities.</span>
+<button onclick="Function2()" id="Btn2">Read more</button></p>
+</div>
+</br></br>
+
+<div class="why">
+<h2 id="sum"> </h2>
+<p style="color: Aqua;">May to mid- September are considered the most hottest months of the UAE. It is not recommended to visit UAE in this season for outdoor activities, only recommended for indoor activities. The temperature even reaches over 50 degrees in this season due to hot and dry weather, global warming, high levels of humidity and dusty days. Due to rare rain, it becomes unmanageable to spend summers outdoor. <span id="dot3">...</span><span id="more3">  Indoor activities like Malls, Indoor theme parks and ice parks are popular in this season but make sure to carry sunscreens, umbrellas, hats and sunglasses with you for day out.</span>
+<button onclick="Function3()" id="Btn3">Read more</button></p>
+</div>
+</div>
+
+<div style="background-color: Silver; margin-top: 100px;">
+<span class="txt-cntainr">
+  <h1> CULTURE AND LIFESTYLE</h1>
+</span>
+<hr style="border: 2px solid AntiqueWhite; width:800px;"><br/>
+
+<div class="why">
+<h2 id="culturee"> </h2>
+<p>UAE's culture is firmly rooted in Arabia's Islamic traditions. Islam is more than a religion; it is a way of life that governs everyday events from what to wear to what to eat and drink. The UAE's culture and heritage is inextricably linked to its religion, and it is a shining example of Islam's true commitment to tolerance and hospitality. <span id="dot4">...</span><span id="more4"> <b> Foreigners are free to practise their own religion and the dress code is liberal. Women are able to drive and walk around unescorted.</b> Among the most highly prized virtues are courtesy and hospitality, and <b> visitors are sure to be charmed by the genuine friendliness of the people.</b></span>
+<button onclick="Function4()" id="Btn4">Read more</button></p>
+</div>
+
+<div class="why">
+<h2 id="lifestyle"> </h2>
+<p>Lightweight summer clothing is suitable for most of the year, but something slightly warmer may be needed for the winter months. Be sure to take some sort of jacket or sweater when visiting hotels or the cinema, as the air conditioning can be fierce. Malls, health clubs and resort facilities are generally more accepting of what's fashionable, but when visiting government offices it is best to cover your shoulders and legs. <span id="dot5">...</span><span id="more5"> It is especially recommended that you dress more conservatively during <a href="https://visitabudhabi.ae/en/travel/essential.info/religion.and.ramadan.aspx" target="_blank">Ramadan</a>. In the evenings, restaurants and clubs usually have a mixt of western, Arabic and Asian styles. Again, ladies are advised to take a pashmina or jacket because of cold air conditioning.</span>
+<button onclick="Function5()" id="Btn5">Read more</button></p>
+</div>
+</div>
+
+
+<div class="pic3">
+<button class= "button button1" onclick="displayResult()">Climate Data (Click)</button>
+</div>
+<div id="data"> </div>
+</div>
+
+
+<div id="challenges" class="tabcontent">
+  <span class="txt-cntainr">
+  <h1><i>YOUR SAFETY IS OUR PRIORITY, FEEL SAFE COMING TO UAE</i></h1>
+</span>
+<div class="pic3">
+<button class= "button button1" onclick="flight()">Check How(Click)</button>
+</div>
+<div style="font-size: 30px;" id="example"></div>
+</div>
+
+
+<div id="touristhelpers" class="tabcontent">
+  <br/><br/>
+    <button type="button" class= "button button1" onclick="as()">Ascending Order- Salary</button>
+  <button type="button" class= "button button1" onclick="des()">Descending Order- Salary</button>
+  <button type="button" class= "button button2" onclick="ass()">Ascending Order- Age</button>
+  <button type="button" class= "button button2" onclick="dess()">Descending Order- Age</button>
+  <br/><br/>
+     
+    <div id = "status" name = "status"> </div>
+</div>
+
+<div id="6" class="tabcontent">
+  <h2> Thank you for visiting! </h2>
+	<h2> Please drop in your suggestions about this website! </h2>
+	<br/></br>
+
+ <div class="container1">
+    <div class="mainBox">
+
+<div id="InputSection">
+      <form>
+        <div style="padding-top: 40px;">
+          <label><b>Feedback*</b></label><br>
+          <textarea rows="5" cols="50" name="comment" id="task" title="Please enter your comment." required></textarea><br>
+        </div><br/>
+              
+            <label><b>Name*</b></label><br/>
+            <input type="text" id="name" name="name" title="Please enter name." placeholder="A-Za-z"><br/>
+         
+            <label><b>Email*</b></label><br/>
+            <input type="email" id="email" name="email" title="Please enter your email." placeholder="contains [@] and [.]">
+          <br/>
+
+        <div><br/><br/>
+          <button type="button" class= "button button1" onclick=" return addTask()">Submit Comment</button>
+          <button type="button" class= "button button2" onclick="clearDatabase()">Clear Comment</button>
+        </div>
+      </form>
+        </div></div></div>
+
+    <hr style="border: 3px solid yellow; width: 1200px;">
+
+      <h2>Comment Section</h2><br>
+      <div id="OutputSection"></div>
+
+    <hr style="border: 3px solid yellow; width: 1200px;">
+<br/><br/>
+</div>
+
+<hr style="border: 3px solid black;">
+<div style="background-color: Coral; padding: 40px;">
+<div class= "grid-container">
+<div>
+<h3 id="abouut">ABOUT US</h3>
+Travel Helper helps people in<br/>making best out of their trips<br/>and promote tourism in UAE.
+</div>
+<div>
+<h3 id="contacct">CONTACT US</h3>
+<a href="http://www.facebook.com/my_page" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-pinterest"></a>
+</div>
+<div>
+  <h3>FOR BOOKING, SEND MAIL TO THE <br/>GIVEN EMAIL ID. <br/>WE WILL SOON GET BACK TO YOU.</h3>
+<a href = "mailto: touristservice@gmail.com"><h2 style="font-size: 15px;">touristservice@gmail.com</h2></a>
+</div><br/><br/>
+</div>
+<br/><hr style="border: 2px solid Silver; width: 600px;">
+<i>Proudly created by ADITI AILAWADHI @2020. All rights reserved.</i>
+  <hr style="border: 2px solid Silver; width: 600px;">
+</div>
+
+<script>
+function show (elem) {  
+    elem.style.display="block";
+}
+function hide (elem) { 
+    elem.style.display=""; 
+}
+</script>
+
+<script>
+function openPage(evt, pge) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(pge).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+var i = 0;
+var images = [];
+var time = 900;
+
+images[0] = "url(https://static.insydo.com/wp-content/uploads/2018/07/when-is-eid-holiday-eud-al-adha-2018-Cropped-min-1280x853.jpg)";
+images[1] = "url(https://cdn.cnn.com/cnnnext/dam/assets/190607132401-museum-of-the-future-1.jpg)";
+images[2] = "url(https://velocityglobal.com/wp-content/uploads/2018/07/Blog-Images-How-to-Obtain-a-UAE-Freezone-Visa-1.jpg)";
+
+function changeImage() {
+    var el = document.getElementById('home');
+    el.style.backgroundImage = images[i];
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
+    }
+    setTimeout('changeImage()', time);
+}
+window.onload = changeImage;
+  </script>
+  
+<script type="text/javascript">
+
+  var db;
+      db = openDatabase('mydb', '1.0', 'To Do', 4 * 1024 * 1024);
+        
+        db.transaction(function (tt) { 
+           tt.executeSql('CREATE TABLE IF NOT EXISTS whyyy (id INTEGER PRIMARY KEY , TASK TEXT, NAME TEXT, EMAIL VARCHAR)');
+        });
+
+        db.transaction( function (tt) {
+          tt.executeSql('SELECT * FROM whyyy', [], function (tt, results) { 
+          
+            var len = results.rows.length; 
+        
+            for (var i = 0; i < len; i++)
+            {
+
+              createNewTask(results.rows.item(i).TASK, results.rows.item(i).NAME, results.rows.item(i).EMAIL);
+            }
+          }, null);
+        });
+      
+      function addTask()
+      {
+        var task =  document.getElementById("task").value;
+                var name = document.getElementById("name").value;
+                var email = document.getElementById("email").value;
+                 if (/^[A-Za-z]{2,}$/.test(name) && /^\w{1,}[@]\w{1,}[.]\w{1,}$/.test(email)) {
+    var query = `INSERT INTO whyyy (TASK, NAME, EMAIL) VALUES ("${task}", "${name}", "${email}")`;
+        alert(query);
+        
+        db.transaction(function (tt) { 
+          tt.executeSql(query);
+        });
+
+        createNewTask(task,name,email);
+
+        resetInput();
+        return true;
+                
+  } else {
+    alert("Invalid Input");
+    return false;
+  }
+      }   
+
+      function resetInput() //rest my form
+      {
+        document.getElementById("task").value = "";
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+      }
+
+
+      function createNewTask(task,name, email)
+      {
+        document.getElementById("OutputSection").innerHTML = "";
+        var list = document.createElement("p");
+        list.innerHTML = "<b>"+"Comment By: " + "<u>"+ name+"</u>:</b><br/>" + "<b><i>" + task+ "</i></b><br/>" +"<b>"+"Email Id: "+email+"</b>";
+        document.getElementById("OutputSection").appendChild(list);
+                
+        console.log("Output Section: "+document.getElementById("OutputSection").innerHTML);
+                
+      } 
+      
+      function clearDatabase()
+      {
+        db.transaction(function (tt) { 
+          tt.executeSql('DELETE FROM whyyy');  
+        });
+        document.getElementById("OutputSection").innerHTML = "";
+      }
+
+    </script>
+
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+<script>
+  function loadXMLDoc(cheap){
+    var xhttp = new XMLHttpRequest();
+ xhttp.onreadystatechange = function() {
+ if (xhttp.readyState == 4 && xhttp.status == 200) {
+ processReceipt(xhttp);
+ }
+ };
+ xhttp.open("GET", "fk6.xml", true);
+ xhttp.send();
+  }
+
+  function processReceipt(xhttp){
+ var xml = xhttp.responseXML;
+ var itemArray = parseXML(xml);
+ display(itemArray);
+}
+
+function parseXML(xml){
+ var itemElements = xml.getElementsByTagName("adventure");
+ var itemArray = [];
+ for(var i=0; i< itemElements.length; i++){
+ var item = {};
+ item.Image = itemElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+ item.Name = itemElements[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+ item.Duration = itemElements[i].getElementsByTagName("duration")[0].childNodes[0].nodeValue;
+ item.Location = itemElements[i].getElementsByTagName("location")[0].childNodes[0].nodeValue;
+ item.Message = itemElements[i].getElementsByTagName("message")[0].childNodes[0].nodeValue;
+ item.op = itemElements[i].getElementsByTagName("old_price")[0].childNodes[0].nodeValue;
+ item.np = itemElements[i].getElementsByTagName("new_price")[0].childNodes[0].nodeValue;
+
+ itemArray.push(item);
+ }
+ return itemArray;
+}
+
+function display(itemArray){
+
+
+  var html= "<table align='center' id='tble'>";
+
+ for(var i=0; i<itemArray.length; i++){
+
+  if(itemArray[i].np < 600){
+
+ html += "<tr style= 'border-style:solid solid;'>";
+ html += "<td>" + "<img style='width:200px' src= '" + itemArray[i].Image + "'/>" + "</td>";
+ html += "<td>" + "<b>" +itemArray[i].Name +"</b>" + "<br>" + "<br>" + itemArray[i].Duration + " | "+ itemArray[i].Location + "<br>" + "</td>";
+ html += "<td>" + itemArray[i].Message + "<br>" + "<br>" + "<del style='color:red;'>"+ "AED "+itemArray[i].op + "</del>"+ "<br>" + "<br>" + "<b>" + "AED " + itemArray[i].np + "</b>" +"</td>";
+  html += "</tr>";
+  html+= "<tr style= 'border-style:solid hidden;'>";
+  html+= "<td>"+ "<br/>"+"</td>";
+  html+= "</tr>";
+ }
+}
+ html += "</table>";
+
+ var marketDiv = document.getElementById("demo");
+ marketDiv.innerHTML = "<h2 style='font-size:20px; text-align: left;'>Hover over &lt;tr&gt; (deal) to see effects</h2>"+html;
+}
+
+  function loadXMLDoc2(){
+    var xhttp2 = new XMLHttpRequest();
+ xhttp2.onreadystatechange = function() {
+ if (xhttp2.readyState == 4 && xhttp2.status == 200) {
+ processReceipt2(xhttp2);
+ }
+ };
+ xhttp2.open("GET", "fk6.xml", true);
+ xhttp2.send();
+  }
+
+    function processReceipt2(xhttp2){
+ var xml2 = xhttp2.responseXML;
+ var itmArray = parseXML2(xml2);
+ diplay(itmArray);
+}
+
+function parseXML2(xml2){
+ var itmElements = xml2.getElementsByTagName("adventure");
+ var itmArray = [];
+ for(var i=0; i< itmElements.length; i++){
+ var itm = {};
+ itm.Image = itmElements[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+ itm.Name = itmElements[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+ itm.Duration = itmElements[i].getElementsByTagName("duration")[0].childNodes[0].nodeValue;
+ itm.Location = itmElements[i].getElementsByTagName("location")[0].childNodes[0].nodeValue;
+ itm.Message = itmElements[i].getElementsByTagName("message")[0].childNodes[0].nodeValue;
+ itm.op = itmElements[i].getElementsByTagName("old_price")[0].childNodes[0].nodeValue;
+ itm.np = itmElements[i].getElementsByTagName("new_price")[0].childNodes[0].nodeValue;
+
+ itmArray.push(itm);
+ }
+ return itmArray;
+}
+
+function diplay(itmArray){
+
+
+  var html2= "<table align='center'  id='tabl'>";
+
+ for(var i=0; i<itmArray.length; i++){
+
+  if(itmArray[i].np > 600){
+
+ html2 += "<tr style= 'border-style:solid solid;'>";
+ html2 += "<td>" + "<img style='width:200px' src= '" + itmArray[i].Image + "'/>" + "</td>";
+ html2 += "<td>" + "<b>" +itmArray[i].Name +"</b>" + "<br>" + "<br>" + itmArray[i].Duration + " | "+ itmArray[i].Location + "<br>"+ "</td>";
+ html2 += "<td>" + itmArray[i].Message + "<br>" + "<br>" + "<del style='color:red;'>"+ "AED "+ itmArray[i].op + "</del>" + "<br>" + "<br>" + "<b>" + "AED " + itmArray[i].np + "</b>" + "</td>";
+  html2 += "</tr>";
+  html2+= "<tr style= 'border-style:solid hidden;'>";
+  html2+= "<td>"+ "<br/>"+"</td>";
+  html2+= "</tr>";
+ }
+}
+ html2 += "</table>";
+
+ var marketDiv2 = document.getElementById("demo");
+ marketDiv2.innerHTML = "<h2 style='font-size:20px; text-align: right;'>Hover over &lt;tr&gt; (deal) to see effects</h2>"+ html2;
+}
+
+var js = new XMLHttpRequest();
+ js.onreadystatechange = function() {
+ if (js.readyState == 4 && js.status == 200) {
+ processResult(js);
+ }
+ };
+ js.open("GET","js1.json",true);
+js.send();
+
+function processResult(js){
+ var jsnTxt = js.responseText;
+ var jso = JSON.parse(jsnTxt);
+ console.log(jso);
+ dis(jso);
+}
+
+function dis(jso){
+
+var j1="";
+for(var i=0; i<jso.List.length; i++)
+ {
+j1+= jso.List[i].name1 +":"+ "<br/>";
+var show= document.getElementById("aut");
+show.innerHTML=j1;
+
+var j2= jso.List[i].name2 +":"+ "<br/>";
+var show2= document.getElementById("spr");
+show2.innerHTML=j2;
+
+var j3= jso.List[i].name3 +":"+ "<br/>";
+var show3= document.getElementById("sum");
+show3.innerHTML=j3;
+
+var culture= jso.List[i].name4 +":"+ "<br/>";
+var wears= document.getElementById("culturee");
+wears.innerHTML=culture;
+
+var life= jso.List[i].name5 +":"+ "<br/>";
+var wear= document.getElementById("lifestyle");
+wear.innerHTML=life;
+}
+
+}
+
+</script>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.display = "none";
+}
+</script>
+
+<script>
+function Function() {
+  var dot = document.getElementById("dot");
+  var more = document.getElementById("more");
+  var btn = document.getElementById("Btn");
+
+  if (dot.style.display === "none") {
+    dot.style.display = "inline";
+    btn.innerHTML = "Read more"; 
+    more.style.display = "none";
+  } else {
+    dot.style.display = "none";
+    btn.innerHTML = "Read less"; 
+    more.style.display = "inline";
+  }
+}
+</script>
+<script>
+function Function2() {
+  var dot2 = document.getElementById("dot2");
+  var more2 = document.getElementById("more2");
+  var btn2 = document.getElementById("Btn2");
+
+  if (dot2.style.display === "none") {
+    dot2.style.display = "inline";
+    btn2.innerHTML = "Read more"; 
+    more2.style.display = "none";
+  } else {
+    dot2.style.display = "none";
+    btn2.innerHTML = "Read less"; 
+    more2.style.display = "inline";
+  }
+}
+</script>
+<script>
+function Function3() {
+  var dot3 = document.getElementById("dot3");
+  var more3 = document.getElementById("more3");
+  var btn3 = document.getElementById("Btn3");
+
+  if (dot3.style.display === "none") {
+    dot3.style.display = "inline";
+    btn3.innerHTML = "Read more"; 
+    more3.style.display = "none";
+  } else {
+    dot3.style.display = "none";
+    btn3.innerHTML = "Read less"; 
+    more3.style.display = "inline";
+  }
+}
+</script>
+
+<script>
+function Function4() {
+  var dot4 = document.getElementById("dot4");
+  var more4 = document.getElementById("more4");
+  var btn4 = document.getElementById("Btn4");
+
+  if (dot4.style.display === "none") {
+    dot4.style.display = "inline";
+    btn4.innerHTML = "Read more"; 
+    more4.style.display = "none";
+  } else {
+    dot4.style.display = "none";
+    btn4.innerHTML = "Read less"; 
+    more4.style.display = "inline";
+  }
+}
+</script>
+<script>
+function Function5() {
+  var dot5 = document.getElementById("dot5");
+  var more5 = document.getElementById("more5");
+  var btn5 = document.getElementById("Btn5");
+
+  if (dot5.style.display === "none") {
+    dot5.style.display = "inline";
+    btn5.innerHTML = "Read more"; 
+    more5.style.display = "none";
+  } else {
+    dot5.style.display = "none";
+    btn5.innerHTML = "Read less"; 
+    more5.style.display = "inline";
+  }
+}
+</script>
+
+<script type = "text/javascript"> 
+         var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024); 
+         var msg; 
+    
+         db.transaction(function (tx) { 
+            tx.executeSql('CREATE TABLE IF NOT EXISTS phir (name, age, salary,gender,nationality,contact,email)'); 
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Alina", 28, 100, "Female","INDIAN",0534678724, "alina@gmail.com")'); 
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Alex", 24, 200, "Male","INDIAN",0546787652, "alex@gmail.com")');
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Aber", 25, 150, "Male","PAKISTANI",0543678358,"aber@gmail.com")');
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Abir", 29, 160, "Male","ARABIC",0546784323, "abir@gmail.com")'); 
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Kareena", 29, 90, "Female","INDIAN",0543267892, "kareena@gmail.com")'); 
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Katrina", 27, 190, "Female","INDIAN",0546754673, "katrina@gmail.com")'); 
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Allen", 19, 150, "Male","INDIAN",0546784562, "allen@gmail.com")'); 
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Zia", 30, 160, "Female","ARABIC",0546545687, "zia@gmail.com")'); 
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Amber", 34, 170, "Male","INDIAN",0548787896, "amber@gmail.com")'); 
+            tx.executeSql('INSERT INTO phir (name, age, salary,gender,nationality,contact,email) VALUES ("Choi", 27, 100, "Female","CHINESE",0545436765, "choi@gmail.com")') 
+         })
+         db.transaction(function (tx) { 
+            tx.executeSql('SELECT * FROM phir', [], function (tx, result) { 
+               var len = result.rows.length, i;
+               msg = "<table class='a'>"+"<tr>" + "<th class='again'>"+"NAME"+" </th>"+ "<th class='again'>"+"AGE"+" </th>"+ "<th class='again'>"+ "SALARY PER DAY(AED)" +" </th>"+ "<th class='again'>"+ "GENDER" +" </th>"+ "<th class='again'>"+ "NATIONALITY" +" </th>"+ "<th class='again'>"+ "CONTACT NUMBER." +" </th>"+ "<th class='again'>"+ "EMAIL" +" </th>"+ "</tr>"+"</table>";
+               document.querySelector('#status').innerHTML +=  msg; 
+               
+               for (i = 0; i < len; i++) {
+                   msg = "<table class='a'>"+"<tr class='again'><b>" + "<td class='again'>"+result.rows.item(i).name +" </td>"+ "<td class='again'>"+ result.rows.item(i).age +" </td>"+ "<td class='again'>"+ result.rows.item(i).salary +" </td>"+ "<td class='again'>"+ result.rows.item(i).gender +" </td>"+ "<td class='again'>"+ result.rows.item(i).nationality +" </td>"+ "<td class='again'>"+ result.rows.item(i).contact +" </td>"+ "<td class='again'>"+ "<a href='mailto:result.rows.item(i).email'>aa@gmail.com"+"</a>" +" </td>"+ "</b></tr>"+"</table>"; 
+                  document.querySelector('#status').innerHTML +=  msg; 
+               } 
+            }, null); 
+         });
+         
+         
+          function as(){
+        document.getElementById("status").innerHTML =  "<h2 style='font-size:20px; padding:20px;'>ASCENDING ORDER OF SALARY</h2>";
+ 
+          db.transaction(function (tx) {
+            tx.executeSql('SELECT * FROM phir ORDER BY salary ASC', [], function (tx, result) { 
+               var len = result.rows.length, i;
+               msg = "<table class='a'>"+"<tr>" + "<th class='again'>"+"NAME"+" </th>"+ "<th class='again'>"+"AGE"+" </th>"+ "<th class='again' style='color:white; text-weight:bold;'>"+ "SALARY PER DAY(AED)" +" </th>"+ "<th class='again'>"+ "GENDER" +" </th>"+ "<th class='again'>"+ "NATIONALITY" +" </th>"+ "<th class='again'>"+ "CONTACT NUMBER." +" </th>"+ "<th class='again'>"+ "EMAIL" +" </th>"+ "</tr>"+"</table>";
+                  document.querySelector('#status').innerHTML +=  msg;
+                  
+               for (i = 0; i < len; i++) { 
+                  msg = "<table class='a'>"+"<tr class='again'><b>" + "<td class='again'>"+result.rows.item(i).name +" </td>"+ "<td class='again'>"+ result.rows.item(i).age +" </td>"+ "<td class='again' style='color:white; text-weight:bold;'>"+ result.rows.item(i).salary +" </td>"+ "<td class='again'>"+ result.rows.item(i).gender +" </td>"+ "<td class='again'>"+ result.rows.item(i).nationality +" </td>"+ "<td class='again'>"+ result.rows.item(i).contact +" </td>"+ "<td class='again'>"+ "<a href='mailto:result.rows.item(i).email'>aa@gmail.com"+"</a>" +" </td>"+ "</b></tr>"+"</table>";  
+                  document.querySelector('#status').innerHTML +=  msg; 
+               } 
+            }, null); 
+         });
+         }
+         
+         function des(){
+        document.getElementById("status").innerHTML =  "<h2 style='font-size:20px; padding:20px;'>DESCENDING ORDER OF SALARY</h2>";
+ 
+          db.transaction(function (tx) {
+            tx.executeSql('SELECT * FROM phir ORDER BY salary DESC', [], function (tx, result) { 
+               var len = result.rows.length, i;
+               msg = "<table class='a'>"+"<tr>" + "<th class='again'>"+"NAME"+" </th>"+ "<th class='again'>"+"AGE"+" </th>"+ "<th class='again' style='color:white; text-weight:bold;'>"+ "SALARY PER DAY(AED)" +" </th>"+ "<th class='again'>"+ "GENDER" +" </th>"+ "<th class='again'>"+ "NATIONALITY" +" </th>"+ "<th class='again'>"+ "CONTACT NUMBER." +" </th>"+ "<th class='again'>"+ "EMAIL" +" </th>"+ "</tr>"+"</table>";
+                  document.querySelector('#status').innerHTML +=  msg;
+                  
+               for (i = 0; i < len; i++) { 
+                  msg = "<table class='a'>"+"<tr class='again'><b>" + "<td class='again'>"+result.rows.item(i).name +" </td>"+ "<td class='again''>"+ result.rows.item(i).age +" </td>"+ "<td class='again' style='color:white; text-weight:bold;'>"+ result.rows.item(i).salary +" </td>"+ "<td class='again'>"+ result.rows.item(i).gender +" </td>"+ "<td class='again'>"+ result.rows.item(i).nationality +" </td>"+ "<td class='again'>"+ result.rows.item(i).contact +" </td>"+ "<td class='again'>"+ "<a href='mailto:result.rows.item(i).email'>aa@gmail.com"+"</a>" +" </td>"+ "</b></tr>"+"</table>";  
+                  document.querySelector('#status').innerHTML +=  msg; 
+               } 
+            }, null); 
+         });
+         }
+         
+         function ass(){
+        document.getElementById("status").innerHTML =  "<h2 style='font-size:20px; padding:20px;'>ASCENDING ORDER OF AGE</h2>";
+ 
+          db.transaction(function (tx) {
+            tx.executeSql('SELECT * FROM phir ORDER BY age ASC', [], function (tx, result) { 
+               var len = result.rows.length, i;
+               msg = "<table class='a'>"+"<tr>" + "<th class='again'>"+"NAME"+" </th>"+ "<th class='again' style='color:white; text-weight:bold;'>"+"AGE"+" </th>"+ "<th class='again'>"+ "SALARY PER DAY(AED)" +" </th>"+ "<th class='again'>"+ "GENDER" +" </th>"+ "<th class='again'>"+ "NATIONALITY" +" </th>"+ "<th class='again'>"+ "CONTACT NUMBER." +" </th>"+ "<th class='again'>"+ "EMAIL" +" </th>"+ "</tr>"+"</table>";
+                  document.querySelector('#status').innerHTML +=  msg;
+                  
+               for (i = 0; i < len; i++) { 
+                  msg = "<table class='a'>"+"<tr><b>" + "<td class='again'>"+result.rows.item(i).name +" </td>"+ "<td class='again' style='color:white; text-weight:bold;'>"+ result.rows.item(i).age +" </td>"+ "<td class='again'>"+ result.rows.item(i).salary +" </td>"+ "<td class='again'>"+ result.rows.item(i).gender +" </td>"+ "<td>"+ result.rows.item(i).nationality +" </td>"+ "<td class='again'>"+ result.rows.item(i).contact +" </td>"+ "<td class='again'>"+ "<a href='mailto:result.rows.item(i).email'>aa@gmail.com"+"</a>" +" </td>"+ "</b></tr>"+"</table>";  
+                  document.querySelector('#status').innerHTML +=  msg; 
+               } 
+            }, null); 
+         });
+         }
+         
+         function dess(){
+        document.getElementById("status").innerHTML =  "<h2 style='font-size:20px; padding:20px;'>DESCENDING ORDER OF AGE</h2>";
+ 
+          db.transaction(function (tx) {
+            tx.executeSql('SELECT * FROM phir ORDER BY age DESC', [], function (tx, result) { 
+               var len = result.rows.length, i;
+               msg = "<table class='a'>"+"<tr>" + "<th class='again'>"+"NAME"+" </th>"+ "<th class='again' style='color:white; text-weight:bold;'>"+"AGE"+" </th>"+ "<th class='again'>"+ "SALARY PER DAY(AED)" +" </th>"+ "<th class='again'>"+ "GENDER" +" </th>"+ "<th class='again'>"+ "NATIONALITY" +" </th>"+ "<th class='again'>"+ "CONTACT NUMBER." +" </th>"+ "<th class='again'>"+ "EMAIL" +" </th>"+ "</tr>"+"</table>";
+                  document.querySelector('#status').innerHTML +=  msg;
+                  
+               for (i = 0; i < len; i++) { 
+                  msg = "<table class='a'>"+"<tr class='again'><b>" + "<td class='again'>"+result.rows.item(i).name +" </td>"+ "<td class='again' style='color:white; text-weight:bold;'>"+ result.rows.item(i).age +" </td>"+ "<td class='again'>"+ result.rows.item(i).salary +" </td>"+ "<td class='again'>"+ result.rows.item(i).gender +" </td>"+ "<td class='again'>"+ result.rows.item(i).nationality +" </td>"+ "<td class='again'>"+ result.rows.item(i).contact +" </td>"+ "<td class='again'>"+ "<a href='mailto:result.rows.item(i).email'>aa@gmail.com"+"</a>" +" </td>"+ "</b></tr>"+"</table>";  
+                  document.querySelector('#status').innerHTML +=  msg; 
+               } 
+            }, null); 
+         });
+         }
+         
+      </script>
+
+      <script>
+function load(filename)
+{
+if (window.ActiveXObject)
+  {
+  xhttps = new ActiveXObject("Msxml2.XMLHTTP");
+  }
+else 
+  {
+  xhttps = new XMLHttpRequest();
+  }
+xhttps.open("GET", filename, false);
+try {xhttps.responseType = "msxml-document"} catch(err) {} // Helping IE11
+xhttps.send("");
+return xhttps.responseXML;
+}
+
+function displayResult()
+{
+xml = load("climate.xml");
+xsl = load("climate.xsl");
+
+if (window.ActiveXObject || xhttps.responseType == "msxml-document")
+  {
+  showw = xml.transformNode(xsl);
+  document.getElementById("data").innerHTML = showw;
+  }
+
+else if (document.implementation && document.implementation.createDocument)
+  {
+  xsltdoc = new XSLTProcessor();
+  xsltdoc.importStylesheet(xsl);
+  result = xsltdoc.transformToFragment(xml, document);
+  document.getElementById("data").appendChild(result);
+  }
+}
+</script>
+
+<script>
+function travel(filename)
+{
+if (window.res)
+  {
+  cov = new res("Msxml2.XMLHTTP");
+  }
+else 
+  {
+  cov = new XMLHttpRequest();
+  }
+cov.open("GET", filename, false);
+try {cov.responseType = "msxml-document"} catch(err) {} // Helping IE11
+cov.send("");
+return cov.responseXML;
+}
+
+function flight()
+{
+xml = travel("c.xml");
+xsl = travel("c.xsl");
+// code for IE
+if (window.res || cov.responseType == "msxml-document")
+  {
+  safe = xml.transformNode(xsl);
+  document.getElementById("example").innerHTML = safe;
+  }
+// code for Chrome, Firefox, Opera, etc.
+else if (document.implementation && document.implementation.createDocument)
+  {
+  travell = new XSLTProcessor();
+  travell.importStylesheet(xsl);
+  plz = travell.transformToFragment(xml, document);
+  document.getElementById("example").appendChild(plz);
+  }
+}
+</script>
+
+</body>
+</html>

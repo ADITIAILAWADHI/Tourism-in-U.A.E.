@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!DOCTYPE COVID [
+ <!ELEMENT COVID (FLIGHT, SAFETY, RULES, RESTRICTIONS)>
+
+ <!ELEMENT FLIGHT (MONTH,JAN,FEB,MAR,APR)>
+ <!ELEMENT MONTH (#PCDATA)>
+ <!ELEMENT JAN (#PCDATA)>
+ <!ELEMENT FEB (#PCDATA)>
+ <!ELEMENT MAR (#PCDATA)>
+ <!ELEMENT APR (#PCDATA)>
+
+ <!ELEMENT SAFETY (l,o,l)>
+ <!ELEMENT l (#PCDATA)>
+ <!ELEMENT o (#PCDATA)>
+ <!ELEMENT l (#PCDATA)>
+
+ <!ELEMENT RULES (s,w,a,d,e)>
+ <!ELEMENT s (#PCDATA)>
+ <!ELEMENT w (#PCDATA)>
+ <!ELEMENT a (#PCDATA)>
+ <!ELEMENT d (#PCDATA)>
+ <!ELEMENT e (#PCDATA)>
+
+ <!ELEMENT RESTRICTIONS (p,o)>
+ <!ELEMENT p (#PCDATA)>
+ <!ELEMENT o (#PCDATA)>
+]>
+
+<COVID>
+
+<FLIGHT>
+<MONTH>Free Covid-19 Test for Indians At Dubai Intrnational Airport.</MONTH>
+<JAN>Must Thermal Screeing of passengers at the Airport.</JAN>
+<FEB>All passengers must sign up for the Covid-19 DXB app.</FEB>
+<MAR>Must 14-days quarantine at arrival.</MAR>
+<APR>Tourist must have international medical travel insurance.</APR>
+</FLIGHT>
+
+<SAFETY>
+<l>Wearing Glove and Masks is must in public.</l>
+<o>Physical Distancing of 2 metres is must.</o>
+<l>Frequent handwashing.</l>
+</SAFETY>
+
+<RULES>
+<s>If the person shows Covid-19 symptoms, then the test will be done for free.</s>
+<w>Regular sterialisation and cleaning of public areas.</w>
+<a>Hand sanitizers available for all at public places.</a>
+<d>Isolators between taxi driver and passengers.</d>
+<e>Not more than 3 people allowed in the car including the taxi-driver.</e>
+</RULES>
+
+<RESTRICTIONS>
+<p>Not all are allowed to exit or enter UAE on their will. Permission must be taken online from the embassy first before taking flight.</p>
+<o>Aged people are advised not to travel.</o>
+</RESTRICTIONS>
+
+</COVID>

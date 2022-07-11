@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!DOCTYPE trip [
+ <!ELEMENT trip (adventure*)>
+ <!ELEMENT adventure (image,name,duration,location,message,old_price,new_price)>
+ <!ELEMENT image EMPTY >
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT duration (#PCDATA)>
+ <!ELEMENT location (#PCDATA)>
+ <!ELEMENT message (#PCDATA)>
+ <!ELEMENT old_price (#PCDATA)>
+ <!ELEMENT new_price (#PCDATA)>
+]>
+
+<trip>
+<adventure>
+    <image>https://www.wherelifeisgreat.com/wp-content/uploads/2016/12/skydive-dubai-main.jpg</image>
+    <name>Book Skydive, Dubai @ Cheapest Price</name>
+    <duration>3H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>1700</old_price>
+   <new_price>1601</new_price>
+</adventure>
+
+<adventure>
+    <image>https://cdn.getyourguide.com/img/location/5ca345852da87.jpeg/148.jpg</image>
+    <name>Buy Online | Burj Khalifa Tickets at Cheapest Price- Guranteed</name>
+    <duration>1H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>138</old_price>
+   <new_price>122</new_price>
+</adventure>
+
+<adventure>
+    <image>https://media.tacdn.com/media/attractions-splice-spp-674x446/09/99/99/87.jpg</image>
+    <name>Dubai Dessert Safari with Bbq Dinner- Flat 40% off</name>
+    <duration>6H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>120</old_price>
+   <new_price>100</new_price>
+</adventure>
+
+<adventure>
+    <image>https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/96/b5.jpg</image>
+    <name>Dubai Sighseeing Tour | Save 20%</name>
+    <duration>4H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>110</old_price>
+   <new_price>99</new_price>
+</adventure>
+
+<adventure>
+    <image>https://www.dubaidolphinarium.ae/images/2017/09/23/dolphirium.png</image>
+    <name>Dubai Dolphinarium Tickets - Save 10% </name>
+    <duration>3H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>75</old_price>
+   <new_price>65</new_price>
+</adventure>
+
+<adventure>
+    <image>https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/ferrari_world_cover.jpg</image>
+    <name>Ferrari World Ticket, Abu Dhabi | Save 10%</name>
+    <duration>8H</duration>
+    <location>Abu Dhabi</location>
+    <message>Starting from</message>
+   <old_price>250</old_price>
+   <new_price>240</new_price>
+</adventure>
+
+<adventure>
+    <image>https://bookmytour.ae/public/package_gallery/1579771686-warner-bros-world-combo.jpg</image>
+    <name>Abu Dhabi City Tour @ 10% off</name>
+    <duration>6H</duration>
+    <location>Abu Dhabi</location>
+    <message>Starting from</message>
+   <old_price>106</old_price>
+   <new_price>90</new_price>
+</adventure>
+
+<adventure>
+    <image>https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/l5xjgecutbe6wuunhuit/Scuba%20Diving%20Experience%20at%20a%20Private%20Island%20in%20Goa.jpg</image>
+    <name>Scuba Diving- Flat 10% off</name>
+    <duration>4H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>294</old_price>
+   <new_price>289</new_price>
+</adventure>
+
+<adventure>
+    <image>https://media.tacdn.com/media/attractions-splice-spp-674x446/07/80/72/6c.jpg</image>
+    <name>Dubai Aquarium and Burj Khalifa Ticket Combo, Flat 20% off</name>
+    <duration>5H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>222</old_price>
+   <new_price>200</new_price>
+</adventure>
+
+<adventure>
+    <image>https://www.digitalsignageconnection.com/wp-content/uploads/MAIN-PIC-244.jpg</image>
+    <name>Dubai Underwater Zoo and Aquarium Combo, Flat 15% off</name>
+    <duration>2H</duration>
+    <location>950</location>
+    <message>Starting from</message>
+   <old_price>700</old_price>
+   <new_price>659</new_price>
+</adventure>
+
+<adventure>
+    <image>https://miro.medium.com/max/800/1*ABDgSrKKNz2q2JzaEGUjxg.jpeg</image>
+    <name>Dinner in the Dessert Dubai Flat 15% off</name>
+    <duration>5H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>149</old_price>
+   <new_price>139</new_price>
+</adventure>
+
+<adventure>
+    <image>https://images.thrillophilia.com/image/upload/s--RDtPJs6O--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/053/200/original/1540535859_Dubai_Dhow_Cruise_Dinner.jpg.jpg?1540535859</image>
+    <name>Dhow Dinner Cruise- Flat 20% off</name>
+    <duration>3H</duration>
+    <location>Dubai Marina</location>
+    <message>Starting from</message>
+   <old_price>133</old_price>
+   <new_price>120</new_price>
+</adventure>
+
+<adventure>
+    <image>https://images.thrillophilia.com/image/upload/s--UM4WU-42--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/192/221/original/1581758113_rajasthani_thali_marwari.jpg.jpg?1581758113</image>
+    <name>Rajasthani Meal, Flat 10% off</name>
+    <duration>1D</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>239</old_price>
+   <new_price>204</new_price>
+</adventure>
+
+<adventure>
+    <image>https://i.pinimg.com/originals/80/7b/3b/807b3b3f75319c6bd64fc03c4b0f2f46.jpg</image>
+    <name>Luxury Dining, Atlantis the Palm, Flat 15% off</name>
+    <duration>6H</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>650</old_price>
+   <new_price>585</new_price>
+</adventure>
+
+<adventure>
+    <image>https://miro.medium.com/max/746/1*-0LPD53jSuUJ2otiF0vBQw.png</image>
+    <name>Emerald Palace Kempinski</name>
+    <duration>1D</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>1800</old_price>
+   <new_price>1799</new_price>
+</adventure>
+
+<adventure>
+    <image>https://media.tacdn.com/media/attractions-splice-spp-360x240/07/38/ec/83.jpg</image>
+    <name>Summer Special Holiday Package: Burj Khalifa and Ski Dubai</name>
+    <duration>6 Days and 5 Nights </duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>1599</old_price>
+   <new_price>1460</new_price>
+</adventure>
+
+<adventure>
+    <image>https://www.ctctourism.com/image/catalog/combo-tickets/display-images/dubai-aquarium-underwater-zoo-burj-khalifa.jpg</image>
+    <name>Thrilling Tour Package: Burj Khalifa and Dolphinarium</name>
+    <duration>7 Days and 6 Nights </duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>2299</old_price>
+   <new_price>2140</new_price>
+</adventure>
+
+<adventure>
+    <image>https://www.bestdubaipackage.com/images/dubai-family-tour-package.jpg</image>
+    <name>Family Special Tour Package With Desert Safari</name>
+    <duration>1D</duration>
+    <location>Dubai</location>
+    <message>Starting from</message>
+   <old_price>770</old_price>
+   <new_price>680</new_price>
+</adventure>
+</trip>
